@@ -54,6 +54,8 @@ button {
   /* padding-top: 24px;
   padding-bottom: 24px; */
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .page-header-container {
   display: flex;
@@ -204,6 +206,7 @@ button {
   height: 112px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
   background: #f4f4fd;
   border-radius: 4px;
 }
@@ -269,12 +272,12 @@ button {
   background: #f4f4fd;
 }
 .our-team-card {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 .social-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 .social-list-item {
 }
@@ -288,7 +291,12 @@ button {
   background: #4d5ae5;
   fill: #ffffff;
 }
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
 .social-list-icon {
+  fill: #f4f4fd;
 }
 .our-team-list {
   display: flex;
@@ -325,16 +333,17 @@ button {
 .customers-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  color: #2e2f42;
 }
 .client-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 .client-list-item {
 }
@@ -346,25 +355,31 @@ button {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  fill: #8e8f99;
+  color: #8e8f99;
+  /* fill: #8e8f99; */
 }
 .client-list-link:hover,
 .client-list-link:focus {
   border: 1px solid #404bbf;
-  fill: #404bbf;
+  color: #404bbf;
+  /* fill: #404bbf; */
 }
 .client-list-icon {
+  fill: currentColor;
 }
 /* footer */
 
 .footer {
   display: flex;
-  margin-right: 0;
-  margin-bottom: 16px;
+  align-items: baseline;
 }
-.footer-page {
+/* .footer-page {
   display: flex;
+  align-items: baseline;
   column-gap: 120px;
+} */
+.footer-logo-block {
+  margin-right: 120px;
 }
 .footer-logo {
   padding-top: 100px;
@@ -397,18 +412,19 @@ button {
 }
 .footer-social-list {
   display: flex;
-  justify-content: center;
-  column-gap: 16px;
+  gap: 16px;
 }
 
 .footer-social-list-item {
+  width: 40px;
+  height: 40px;
 }
 .footer-social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background: #4d5ae5;
   fill: #ffffff;
@@ -418,6 +434,7 @@ button {
   background: #31d0aa;
 }
 .social-list-icon {
+  fill: #f4f4fd;
 }
 /* Page Portfolio */
 
