@@ -356,13 +356,11 @@ button {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: #8e8f99;
-  /* fill: #8e8f99; */
 }
 .client-list-link:hover,
 .client-list-link:focus {
   border: 1px solid #404bbf;
   color: #404bbf;
-  /* fill: #404bbf; */
 }
 .client-list-icon {
   fill: currentColor;
@@ -373,11 +371,7 @@ button {
   display: flex;
   align-items: baseline;
 }
-/* .footer-page {
-  display: flex;
-  align-items: baseline;
-  column-gap: 120px;
-} */
+
 .footer-logo-block {
   margin-right: 120px;
 }
