@@ -279,8 +279,7 @@ button {
   justify-content: center;
   gap: 24px;
 }
-.social-list-item {
-}
+
 .social-list-link {
   display: flex;
   justify-content: center;
@@ -345,8 +344,7 @@ button {
   justify-content: center;
   gap: 24px;
 }
-.client-list-item {
-}
+
 .client-list-link {
   display: flex;
   justify-content: center;
@@ -478,11 +476,9 @@ button {
 }
 .filters-images-link {
   display: block;
-  border: 1px solid #e7e9fc;
 }
 .filters-images-link:hover,
 .filters-images-link:focus {
-  border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
